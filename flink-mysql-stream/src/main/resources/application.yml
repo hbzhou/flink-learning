@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: flink-mysql-stream
+
+server:
+  port: 8099

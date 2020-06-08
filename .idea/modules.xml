@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/flink-kafka-stream/flink-kafka-stream.iml" filepath="$PROJECT_DIR$/flink-kafka-stream/flink-kafka-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-learning.iml" filepath="$PROJECT_DIR$/flink-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-mysql-stream/flink-mysql-stream.iml" filepath="$PROJECT_DIR$/flink-mysql-stream/flink-mysql-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flink-words-count/flink-words-count.iml" filepath="$PROJECT_DIR$/flink-words-count/flink-words-count.iml" />
+    </modules>
+  </component>
+</project>
