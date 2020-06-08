@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="563cda0a-2cf5-4952-8354-1a294c80bb64" name="Default Changelist" comment="" />
+    <list default="true" id="563cda0a-2cf5-4952-8354-1a294c80bb64" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/flink-kafka-stream/lib/rtq-app-client-3.7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-kafka-stream/lib/rtq-app-comm-pkg-3.7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-kafka-stream/lib/rtq-app-common-3.7.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-kafka-stream/flink-kafka-stream.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-kafka-stream/flink-kafka-stream.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\jerem\.m2\repository" />
+        <option name="mavenHome" value="D:/soft/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\soft\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -24,7 +40,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-design-pattern" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flink-kafka-stream/lib" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git_code\flink-learning\flink-kafka-stream\lib" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.FlinkMysqlBootApplication">
     <configuration name="FlinkKafkaBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -53,6 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591601352799</updated>
       <workItem from="1591601357674" duration="464000" />
+      <workItem from="1591623259447" duration="1293000" />
     </task>
     <servers />
   </component>
@@ -60,9 +83,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="218" key="FileChooserDialogImpl" timestamp="1591601827054">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="460" y="158" key="FileChooserDialogImpl" timestamp="1591623440158">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
+    <state x="460" y="158" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1591623440158" />
     <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591601827054" />
+    <state x="142" y="22" key="SettingsEditor" timestamp="1591623321403">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="142" y="22" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1591623321403" />
   </component>
 </project>
