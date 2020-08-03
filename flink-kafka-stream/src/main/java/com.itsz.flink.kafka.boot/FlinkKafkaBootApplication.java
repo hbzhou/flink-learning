@@ -43,6 +43,7 @@ public class FlinkKafkaBootApplication implements CommandLineRunner {
 
         DataStreamSource<String> dataStreamSource = env.addSource(myConsumer).setParallelism(1);
 
+
         dataStreamSource.print(); //把从 kafka 读取到的数据打印在控制台
 
         env.execute("Flink add data source");

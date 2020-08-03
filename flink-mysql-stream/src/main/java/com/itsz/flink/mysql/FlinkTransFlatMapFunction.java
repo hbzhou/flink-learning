@@ -14,23 +14,14 @@ public class FlinkTransFlatMapFunction {
 
         DataStreamSource<Student> dataStreamSource = environment.addSource(new SourceFromMySQL()).setParallelism(1);
 
-        dataStreamSource.flatMap(new FlatMapFunction<Student, Object>() {
+        dataStreamSource.flatMap((FlatMapFunction<Student, Object>) (student, collector) -> {
+            if (student.getId() % 2 == 0 ){
+                collector.collect(student);
+            }
 
-             @Override
-             public void flatMap(Student student, Collector<Object> collector) throws Exception {
-                 if (student.getId() % 2 == 0 ){
-                     collector.collect(student);
-                 }
-
-             }
-     });
-
-        dataStreamSource.filter(student -> {
-           if (student.getId()>56){
-               return true;
-           }
-           return false;
         });
+
+        dataStreamSource.filter(student -> student.getId() > 56);
 
         dataStreamSource.print();
 

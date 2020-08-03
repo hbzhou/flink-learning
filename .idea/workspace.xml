@@ -185,16 +185,30 @@
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flink-kafka-stream/flink-kafka-stream.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-kafka-stream/flink-kafka-stream.iml" afterDir="false" />
+<<<<<<< .mine
       <change beforePath="$PROJECT_DIR$/flink-words-count/flink-words-count.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/flink-words-count/src/main/java/com/itsz/flink/words/SocketTextStreamWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-words-count/src/main/java/com/itsz/flink/words/SocketTextStreamWordCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flink-words-count/target/classes/com/itsz/flink/words/SocketTextStreamWordCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/flink-words-count/target/classes/com/itsz/flink/words/SocketTextStreamWordCount.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+
+
+
+=======
+      <change beforePath="$PROJECT_DIR$/flink-kafka-stream/src/main/java/com.itsz.flink.kafka.boot/FlinkKafkaBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-kafka-stream/src/main/java/com.itsz.flink.kafka.boot/FlinkKafkaBootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-mysql-stream/src/main/java/com/itsz/flink/mysql/FlinkKafkaConsumerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-mysql-stream/src/main/java/com/itsz/flink/mysql/FlinkKafkaConsumerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-mysql-stream/src/main/java/com/itsz/flink/mysql/FlinkKafkaProducerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-mysql-stream/src/main/java/com/itsz/flink/mysql/FlinkKafkaProducerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-mysql-stream/src/main/java/com/itsz/flink/mysql/FlinkTransFlatMapFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-mysql-stream/src/main/java/com/itsz/flink/mysql/FlinkTransFlatMapFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-words-count/flink-words-count.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-words-count/flink-words-count.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-words-count/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink-words-count/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink-words-count/src/main/java/com/itsz/flink/words/SocketTextStreamWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/flink-words-count/src/main/java/com/itsz/flink/words/SocketTextStreamWordCount.java" afterDir="false" />
+>>>>>>> .theirs
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< .mine
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
@@ -205,6 +219,26 @@
       </list>
     </option>
   </component>
+
+
+
+
+=======
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+>>>>>>> .theirs
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -216,8 +250,13 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+<<<<<<< .mine
         <option name="localRepository" value="C:\Users\Jeremy_Zhou\.m2\repository" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../soft/apache-maven-3.6.3" />
+=======
+        <option name="localRepository" value="D:\repsoitory\.m2\repository" />
+        <option name="mavenHome" value="D:/soft/apache-maven-3.6.3" />
+>>>>>>> .theirs
         <option name="userSettingsFile" value="D:\soft\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -235,8 +274,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< .mine
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hadoop-learning" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+>>>>>>> .theirs
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -250,6 +294,7 @@
       <recent name="com.itsz.flink.netty.source" />
     </key>
   </component>
+<<<<<<< .mine
   <component name="RunManager" selected="Application.NettySink">
     <configuration name="FlinkKafkaConsumerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
@@ -335,6 +380,93 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SocketTextStreamWordCount">
+    <configuration name="SocketTextStreamWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.itsz.flink.words.SocketTextStreamWordCount" />
+      <module name="flink-words-count" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itsz.flink.words.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> .theirs
     <configuration name="FlinkKafkaBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="flink-kafka-stream" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itsz.flink.kafka.boot.FlinkKafkaBootApplication" />
@@ -349,6 +481,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< .mine
     <list>
       <item itemvalue="Application.FlinkKafkaConsumerMain" />
       <item itemvalue="Application.SocketTextStreamWordCount" />
@@ -364,6 +497,40 @@
         <item itemvalue="Application.SocketTextStreamWordCount" />
       </list>
     </recent_temporary>
+=======
+    <list>
+      <item itemvalue="Application.SocketTextStreamWordCount" />
+      <item itemvalue="Spring Boot.FlinkKafkaBootApplication" />
+      <item itemvalue="Spring Boot.FlinkMysqlBootApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SocketTextStreamWordCount" />
+      </list>
+    </recent_temporary>
+
+
+
+
+
+>>>>>>> .theirs
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -376,7 +543,11 @@
       <option name="presentableId" value="Default" />
       <updated>1591601352799</updated>
       <workItem from="1591601357674" duration="464000" />
-      <workItem from="1591623259447" duration="1293000" />
+      <workItem from="1591623259447" duration="1594000" />
+      <workItem from="1591709152808" duration="65000" />
+      <workItem from="1594694019830" duration="49000" />
+      <workItem from="1595511171853" duration="129000" />
+      <workItem from="1596332830919" duration="5596000" />
     </task>
     <servers />
   </component>
@@ -396,9 +567,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< .mine
     <state x="2330" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596446914845">
       <screen x="1920" y="0" width="1920" height="1040" />
+=======
+    <state x="233" y="39" key="#SQL_Dialects" timestamp="1596335866020">
+      <screen x="0" y="0" width="1280" height="760" />
+>>>>>>> .theirs
     </state>
+<<<<<<< .mine
     <state x="2330" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596446914845" />
     <state x="2638" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1596446238070">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -408,11 +585,30 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="460" y="158" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1591623440158" />
+=======
+    <state x="233" y="39" key="#SQL_Dialects/0.0.1280.760@0.0.1280.760" timestamp="1596335866020" />
+    <state x="96" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596335891543">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="96" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1596335891543" />
+    <state x="460" y="158" key="FileChooserDialogImpl" timestamp="1596332881770">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="460" y="158" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1596332881770" />
+>>>>>>> .theirs
+<<<<<<< .mine
     <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593676805287" />
     <state x="2610" y="218" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596442678654" />
     <state width="1865" height="182" key="GridCell.Tab.0.bottom" timestamp="1596447592112">
       <screen x="1920" y="0" width="1920" height="1040" />
+=======
+    <state x="690" y="218" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591601827054" />
+    <state width="1238" height="2" key="GridCell.Tab.0.bottom" timestamp="1596342795410">
+      <screen x="0" y="0" width="1280" height="760" />
+
+>>>>>>> .theirs
     </state>
+<<<<<<< .mine
     <state width="1877" height="547" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593676806745" />
     <state width="1865" height="182" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596447592112" />
     <state width="1865" height="182" key="GridCell.Tab.0.center" timestamp="1596447592112">
@@ -454,6 +650,49 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="142" y="22" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1591623321403" />
+=======
+    <state width="1238" height="2" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1596342795410" />
+    <state width="1238" height="2" key="GridCell.Tab.0.center" timestamp="1596342795410">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="2" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1596342795410" />
+    <state width="1238" height="2" key="GridCell.Tab.0.left" timestamp="1596342795410">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="2" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1596342795410" />
+    <state width="1238" height="2" key="GridCell.Tab.0.right" timestamp="1596342795410">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="2" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1596342795410" />
+    <state x="142" y="22" key="SettingsEditor" timestamp="1596332893038">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="142" y="22" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1596332893037" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> .theirs
     <state x="213" y="30" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593676676374" />
     <state x="2147" y="28" key="new project wizard" timestamp="1596440505917">
       <screen x="1920" y="0" width="1920" height="1040" />
