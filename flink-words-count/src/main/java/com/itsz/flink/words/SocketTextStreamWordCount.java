@@ -19,8 +19,8 @@ public class SocketTextStreamWordCount {
         if (args.length != 2) {
             // System.err.println("USAGE:\nSocketTextStreamWordCount <hostname> <port>");
             //return;
-            hostname = "10.200.6.14";
-            port = 9200;
+            hostname = "127.0.0.1";
+            port = 6668;
         } else {
             hostname = args[0];
             port = Integer.parseInt(args[1]);
@@ -32,6 +32,7 @@ public class SocketTextStreamWordCount {
 
         //获取数据
         DataStreamSource<String> stream = env.socketTextStream(hostname, port);
+
 
         //计数
         SingleOutputStreamOperator<Tuple2<String, Integer>> sum = stream.flatMap(new LineSplitter())

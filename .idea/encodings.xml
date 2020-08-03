@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/flink-kafka-stream/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-mysql-stream/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-mysql-stream/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-netty-source/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/flink-netty-source/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-words-count/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/flink-words-count/src/main/resources" charset="UTF-8" />
   </component>
