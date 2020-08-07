@@ -84,6 +84,4 @@ bower_components/
 
 /.idea
 /*.iml
-/flink-words-count/*.iml
-/flink-mysql-stream/flink-mysql-stream.iml
-/flink-kafka-stream/*.iml
+
