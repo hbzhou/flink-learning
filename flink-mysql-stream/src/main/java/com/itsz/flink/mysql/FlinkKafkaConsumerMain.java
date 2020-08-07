@@ -18,7 +18,7 @@ public class FlinkKafkaConsumerMain {
 
         Properties properties = new Properties();
 
-        properties.setProperty(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
+        properties.setProperty(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "192.168.33.12:9092");
 
         FlinkKafkaConsumer<String> myConsumer = new FlinkKafkaConsumer<>("student", new SimpleStringSchema(), properties);
 

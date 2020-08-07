@@ -51,7 +51,7 @@ public class SocketTextStreamWordCount {
 
             for (String token : tokens) {
                 if (token.length() > 0) {
-                    collector.collect(new Tuple2<String, Integer>(token, 1));
+                    collector.collect(new Tuple2<>(token, 1));
                 }
             }
         }
