@@ -4,7 +4,7 @@ import org.apache.flink.streaming.api.functions.source.RichParallelSourceFunctio
 
 public class TcpReceiverSource extends RichParallelSourceFunction<String> {
 
-    private TcpClient tcpClient;
+    private final TcpClient tcpClient;
 
 
     public TcpReceiverSource(String host, int port) {

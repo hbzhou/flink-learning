@@ -20,9 +20,9 @@ public class TcpClient implements Serializable {
 
     private SourceFunction.SourceContext<String> sourceContext;
 
-    private String host;
+    private final String host;
 
-    private int port;
+    private final int port;
 
     public TcpClient(String host, int port) {
         this.host = host;

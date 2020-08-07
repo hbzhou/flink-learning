@@ -10,7 +10,7 @@ public class NettySource {
 
         StreamExecutionEnvironment executionEnvironment = StreamExecutionEnvironment.getExecutionEnvironment().setParallelism(1);
 
-        DataStreamSource<String> source = executionEnvironment.addSource(new TcpReceiverSource("localhost",6668));
+        DataStreamSource<String> source = executionEnvironment.addSource(new TcpReceiverSource("192.168.33.10",9000));
 
         SingleOutputStreamOperator<String> response = source.map(line -> "server says that: " + line);
 

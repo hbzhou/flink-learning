@@ -19,8 +19,8 @@ public class SocketTextStreamWordCount {
         if (args.length != 2) {
             // System.err.println("USAGE:\nSocketTextStreamWordCount <hostname> <port>");
             //return;
-            hostname = "127.0.0.1";
-            port = 6668;
+            hostname = "192.168.33.10";
+            port = 9000;
         } else {
             hostname = args[0];
             port = Integer.parseInt(args[1]);

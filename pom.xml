@@ -12,6 +12,7 @@
         <module>flink-kafka-stream</module>
         <module>flink-mysql-stream</module>
         <module>flink-netty-source</module>
+        <module>flink-fraud-detection</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
