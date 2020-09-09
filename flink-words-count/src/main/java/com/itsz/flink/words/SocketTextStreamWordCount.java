@@ -6,6 +6,7 @@ import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.util.Collector;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 public class SocketTextStreamWordCount {
 
@@ -26,13 +27,11 @@ public class SocketTextStreamWordCount {
             port = Integer.parseInt(args[1]);
         }
 
-
         // set up the streaming execution environment
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 
         //获取数据
         DataStreamSource<String> stream = env.socketTextStream(hostname, port);
-
 
         //计数
         SingleOutputStreamOperator<Tuple2<String, Integer>> sum = stream.flatMap(new LineSplitter())
